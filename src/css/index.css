@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+tr th{
+  text-align: left !important;
+}
+
+tr th:nth-child(3){
+  text-align: center !important;
+}
+
+tr th:nth-child(4), th:last-child{
+    padding-left: 3%;
+}
+
+tr td:nth-child(3){
+    text-align: center !important;
+}
+
+.navbar{
+  display: block !important;
+  min-height: 100px;
+}
+
+#navbar ul{
+  display: inline !important;
+}
+
+#navbar ul li{
+  float: left;
+  padding: 1%;
+}
